@@ -1,0 +1,34 @@
+{
+  "name": "quickstartnodejs",
+  "version": "1.0.0",
+  "description": "a quick start for node.js project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haryphamhust/quickStartNodeJSProject.git"
+  },
+  "keywords": [
+    "nodejs",
+    "mysql"
+  ],
+  "author": "Hary Pham",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haryphamhust/quickStartNodeJSProject/issues"
+  },
+  "homepage": "https://github.com/haryphamhust/quickStartNodeJSProject#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
